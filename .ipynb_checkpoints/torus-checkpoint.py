@@ -1,6 +1,6 @@
 import numpy as np
 
-def sample_torus_3d(n=1000, R=2.0, r=0.6, mode="random"):
+def sample_torus_3d(n=2000, R=1.0, r=0.3, mode="random"):
     if mode == "random":
         theta = 2*np.pi*np.random.rand(n)
         phi   = 2*np.pi*np.random.rand(n)
